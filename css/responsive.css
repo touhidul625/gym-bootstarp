@@ -1,0 +1,274 @@
+@media(min-width:1400px) {}
+
+@media(min-width:1200px) and (max-width:1399.98px) {}
+
+@media(min-width:992px) and (max-width:11999.98px) {}
+
+@media(min-width:768px) and (max-width:991.98px) {}
+
+@media(min-width:576px) and (max-width:767.98px) {}
+
+@media(max-width: 575.98px) {
+
+    /* menu part start */
+    .main_menu .navbar-brand {
+        width: 170px;
+        height: 50px;
+
+
+        line-height: 40px;
+
+    }
+
+    .main_menu {
+        padding: 0;
+        top: 0;
+
+        background: var(--hover);
+
+    }
+
+    .main_menu button i {
+        color: #ffff;
+    }
+
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        box-shadow: 0 0 0 .0;
+    }
+
+    #navbarSupportedContent {
+        background: var(--hover);
+        text-align: center;
+        border-top: 1px solid yellowgreen;
+    }
+
+    .main_menu ul li a {
+
+        line-height: 35px;
+
+    }
+
+    .main_menu ul li a::after {
+        display: none;
+    }
+
+
+    /* menu part end */
+    .banner_item {
+        padding: 120px 0 70px;
+    }
+    
+    .text_item h2::before,
+    .text_item h2::after,
+    .text_item h1::before,
+    .text_item h1::after,
+    .text_item p::before,
+    .text_item p::after {
+        display: none;
+    
+    }
+    
+    .text_item h2 {
+    
+        font-size: 22px;
+    
+    }
+    
+    .text_item h1 {
+    
+        font-size: 35px;
+    
+    }
+    
+    .text_item p {
+    
+        padding: 0 0 25px 0;
+    }
+    
+    .text_item a {
+    
+        font-size: 14px;
+    
+        padding: 0 15px;
+        margin-right: 10px;
+    
+    
+    }
+    
+    #banner .slick-dots li.slick-active button {
+        width: 12px;
+        height: 14px;
+    
+    }
+    
+    #banner .slick-dots li button {
+    
+        width: 10px;
+        height: 12px;
+    
+        margin: 0 3px;
+    
+    }
+    
+    
+    /* menu part end */
+    /* about part start */
+    
+    
+    #about_part {
+        padding: 43px 0;
+    }
+    
+    
+    .text_part p {
+        margin-top: 15px;
+        text-align: justify;
+        padding-bottom: 30px;
+    }
+    
+    .gal_img:nth-child(2) {
+        margin-bottom: 25px;
+    }
+    
+    .gym_part {
+        padding: 30px 0 5px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /* about part end */
+    /* team part start */
+    
+    #team_part {
+        padding: 43px 0 0;
+    }
+    
+    .main_team .img_part .overly {
+        transform: scale(1);
+    }
+    
+    .main_team {
+        transform: translateY(-42px);
+        transition: all linear.3s;
+    }
+    
+    .main_team .text_part p {
+        transform: scale(1);
+    }
+    
+    .main_team .text_part {
+        border-color: #ddd;
+    }
+    
+    
+    .abc {
+        padding-top: 30px;
+    }
+    
+    
+    
+    
+    /* team part end */
+    
+    /* test part start */
+    
+    
+    
+    /* test part end */
+    /* member part start */
+    #member_part {
+        padding: 43px 0 50px;
+    }
+    
+    .member_text h2 {
+        padding: 13px 0;
+    
+        font-size: 14px;
+    
+    }
+    
+    .member_text h3 {
+    
+        font-size: 40px;
+    
+    }
+    
+    .member_text h3 {
+        font-size: 29px;
+    }
+    
+    .member_text h3 {
+    
+    
+    
+        padding: 15px 0 15px;
+    }
+    
+    .member_text h3 span {
+        font-size: 20px;
+    
+    }
+    
+    .member_text ul li {
+    
+        padding: 5px 0;
+    }
+    
+    .member_text a {
+    
+        padding: 5px 0;
+    
+        font-size: 14px;
+    
+    }
+    
+    .col h2 {
+    
+        font-size: 14px;
+    
+    }
+    .class_menu{
+        display:flex;
+        justify-content:space-between;
+    }
+    .class_menu li {
+        width: 32.3%;
+        margin-bottom: 5px;
+    }
+    .class_item ul{
+        justify-content:space-between;
+    }
+    .class_item ul li {
+        width: 48.3%;
+        margin-right:0;
+        
+    }
+    
+    #class_part {
+        padding: 10px 0;
+    }
+    
+    #footer{
+        margin-top:10px;
+    }
+    
+    
+    
+    
+    
+    /* member end */
+
+}
+
+/*banner part start  */
+
